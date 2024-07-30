@@ -23,7 +23,9 @@ import os
 import copy
 import numpy as np
 from dassh.logged_class import LoggedClass
-
+import lbh15     # fp: Python package for thermo-physical and the thermo-chemical properties
+                 # of lead, bismuth and lead-bismuth eutectic (lbe)
+                 # https://newcleo-dev-team.github.io/lbh15/index.html
 
 _ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -92,6 +94,7 @@ class Material(LoggedClass):
         # Update properties based on input temperature
         self.update(temperature)
 
+        
     def read_from_file(self, path):
         """Determine whether a user-provided CSV file is providing
         correlation coefficients or tabulated data and read them in"""
@@ -252,12 +255,39 @@ class Material(LoggedClass):
         # Only used for constant-property materials
         self._beta = beta
 
+##############################################################################
+# fp: update properties with lbh15 library for lead, bismuth and lbe. In case 
+#     other meterials are used (sodium, sodium-potassium eutectic, non-coolant), 
+#     original DASSH method is used. 
+
+#    def update(self, temperature):
+#        """Update material properties based on new bulk temperature"""
+#        self.temperature = temperature
+#        for property in self._data.keys():
+#            setattr(self, property, self._data[property](temperature))
+            
     def update(self, temperature):
         """Update material properties based on new bulk temperature"""
         self.temperature = temperature
-        for property in self._data.keys():
-            setattr(self, property, self._data[property](temperature))
-
+        symbolic_name = dict(zip(self._data.keys(), ['rho', 'cp', 'mu', 'k']))
+        material_lbh = {
+            'lead': lbh15.Lead,
+            'bismuth': lbh15.Bismuth,
+            'lbe': lbh15.LBE
+        }
+        if self.name in material_lbh.keys():
+            msg=f'lbh15 library used for material {self.name}'
+            self.log('info', msg) 
+            for property in self._data.keys():
+                setattr(self, property, getattr(material_lbh[self.name](T=self.temperature), symbolic_name[property]))
+        else:
+            msg = f'lbh15 library NOT used for material {self.name}'
+            self.log('info', msg)
+            for property in self._data.keys(): 
+                setattr(self, property, self._data[property](temperature))  
+  
+####################################################################################
+                
     def clone(self, new_temperature=None):
         """Create a clone of this material with a new temperature
         if requested"""

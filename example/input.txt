@@ -1,0 +1,91 @@
+########################################################################
+# author: Francesco Pepe
+# date: 2024-06-25
+# comment: example from ANTEO+ Wire test case
+########################################################################
+# SETUP: Problem setup, user options, etc
+
+[Setup]
+    log_progress        = 100
+    calc_energy_balance = True
+    [[Dump]]
+        coolant = True
+        pins    = True
+
+
+########################################################################
+
+[Power]
+    user_power  = AW_pin_power.csv
+    total_power = 322.3e3    # Normalize power to this value
+
+
+########################################################################
+# CORE DETAILS: Describe characteristics of the reactor core
+
+[Core]
+    coolant_inlet_temp = 716.15      # (K); based on 443.0 ˚C inlet temp
+    coolant_material   = lead
+    length             = 0.6096      # (m); only model pin bundle length
+    assembly_pitch     = 0.058929    # (m)                                      ????
+    gap_model          = none
+    bypass_fraction    = 0.0         # no inter-asm gap bypass
+
+
+########################################################################
+# ASSEMBLY DETAILS: Describe a group of assemblies
+# NAME identifies a group of assemblies (e.g. "INNER_DRIVER")
+# Can be repeated for as many assemblies as required by the user.
+
+[Assembly]
+    [[xx09]]
+        num_rings       = 3
+        pin_pitch       = 0.0072644                                # [3]
+        pin_diameter    = 0.005842                                 # [1]
+        clad_thickness  = 0.0004                                   # [1]
+        wire_pitch      = 0.3048                                   # [2]        ????
+        wire_diameter   = 0.00113                                # [1]
+        wire_direction  = counterclockwise
+        duct_ftf        = 0.03332269, 0.03332270                      # [3]        ????
+        duct_material   = ss304                                    # [3]
+        corr_mixing     = MIT 
+	corr_friction   = CTS
+	corr_flowsplit  = CTD
+#	corr_nusselt    = DB                                                        !!!! c'è solo dittus-boelter!
+        shape_factor    = 1.25
+        htc_params_duct = 0.025, 0.8, 0.8, 7.0
+#        bypass_gap_flow_fraction = 0.09
+        [[[FuelModel]]]
+ #           clad_thickness  = 0.0004
+            clad_material   = ss316                       # [1]                !!!! dovrebbe essere T15...
+            gap_material    = lead                     # [1]                !!!! DOVREBBE ESSERE He...
+            fcgap_thickness = 0.000221                    # [1]
+            r_frac   = 0.001, 0.002921
+            pu_frac  = 0.000,   0.300
+            zr_frac  = 0.000,   0.000                    # [3]
+            porosity = 0.000,   0.050
+
+[Assignment]
+    [[ByPosition]]
+        xx09 = 1, 1, 1, FLOWRATE=3.06
+
+[Plot]
+    [[subchannel_temps]]
+        type        = SubchannelPlot
+        assembly_id = 1
+        z           = 0.3048, 0.6096        # m
+        cmap        = jet              # default 
+        units       = Celsius          # default is K
+        cbar_lbnd   = 450.0            # celsius, as indicated 
+        cbar_ubnd   = 1400.0            # celsius, as indicated 
+        cbar_label  = Coolant temperature (°C)
+        pins        = True             # overlay pins on subchannels 
+        pin_alpha   = 0.8              # opacity of pin fill 
+    [[fuel_temps]]
+        type        = PinPlot
+        value       = clad_mw 
+        assembly_id = 1
+        z           = 0.3048, 0.6096       # m 
+        cmap        = rainbow 
+        units       = Celsius 
+        cbar_label  = Clad MW temperature (°C) 

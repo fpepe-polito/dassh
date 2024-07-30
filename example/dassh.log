@@ -1,0 +1,537 @@
+09-Jul-24 17:19:39 -              dassh -     INFO - DASSH v0.12.1 logger initialized - 
+09-Jul-24 17:19:39 -              dassh -     INFO - Reading input: /home/fpepe/programs/dassh_v1/example/input.txt - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.ss316 -     INFO - lbh15 library NOT used for material ss316 - 
+09-Jul-24 17:19:39 - dassh.reactor.Reactor -     INFO - Setting up power distribution - 
+09-Jul-24 17:19:39 - dassh.reactor.Reactor -     INFO - Generating Assembly objects - 
+09-Jul-24 17:19:39 - dassh.RoddedRegion -  WARNING -     Assembly "xx09" param "wire-pitch to pin-diameter ratio" is outside the acceptable range for correlation "friction_cts" - 
+09-Jul-24 17:19:39 - dassh.RoddedRegion -  WARNING -     Assembly "xx09" param "wire-pitch to pin-diameter ratio" is outside the acceptable range for correlation "flowsplit_ctd" - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.reactor.Reactor -     INFO - Generating Core object - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.reactor.Reactor -     INFO - Total power (W): 322300.0 - 
+09-Jul-24 17:19:39 - dassh.reactor.Reactor -     INFO - Total flow rate (kg/s): 3.0600 - 
+09-Jul-24 17:19:39 - dassh.reactor.Reactor -     INFO - Axial step size required (m): 0.023357 - 
+09-Jul-24 17:19:39 - dassh.reactor.Reactor -     INFO - Reducing step size to improve accuracy; new step size (m): 0.01 - 
+09-Jul-24 17:19:39 - dassh.reactor.Reactor -     INFO - 61 axial steps required - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 -              dassh -     INFO - Performing temperature sweep... - 
+09-Jul-24 17:19:39 - dassh.reactor.Reactor -     INFO - Dumping temperatures at every axial step - 
+09-Jul-24 17:19:39 - dassh.reactor.Reactor -     INFO - Dumping interior coolant temperatures to "temp_coolant_int.csv" - 
+09-Jul-24 17:19:39 - dassh.reactor.Reactor -     INFO - Dumping pin temperatures to "temp_pin.csv" - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.ss304 -     INFO - lbh15 library NOT used for material ss304 - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.metallic_fuel -     INFO - lbh15 library NOT used for material metallic_fuel - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 - dassh.Material.lead -     INFO - lbh15 library used for material lead - 
+09-Jul-24 17:19:39 -              dassh -     INFO - Temperature sweep complete - 
+09-Jul-24 17:19:39 -              dassh -     INFO - Output written - 
+09-Jul-24 17:19:39 -              dassh -     INFO - Generating figures - 
+09-Jul-24 17:19:40 -              dassh -     INFO - DASSH execution complete - 
